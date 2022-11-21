@@ -40,7 +40,7 @@ class Delete(Command):
         headers = {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
-          'Authorization': '<Basic64 Auth>'
+          'Authorization': '<Basic64 Auth>'     #Basic Auth 64 is used
         }
 
         response = requests.request("DELETE", url, headers=headers, data=payload, verify = False)
