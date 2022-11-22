@@ -35,5 +35,10 @@ class Create(Command):
         }
 
         response = requests.request("POST", url, headers=headers, data=payload, verify = False)
-
-        return("Endpoint " + mac_addr + " has been added to ISE.")
+        if response.status_code == 201:
+            return(mac_addr + " has been added to the ISE database.")
+        elif response.status_code == 500:
+            return("Unable to create the endpoint. " + mac_addr + " already exists in the ISE database.")
+        else:
+            return("Unhandled Exception. Please contact your system administrator.")
+        
