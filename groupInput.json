@@ -32,12 +32,12 @@
                     "value": "<ISE Group ID>"
                 },
                 {
-                    "title": "<ISE Group Name",
-                    "value": "ISE Group ID"
+                    "title": "<ISE Group Name>",
+                    "value": "<ISE Group ID>"
                 },
                 {
-                    "title": "<ISE Group Name",
-                    "value": "ISE Group ID"
+                    "title": "<ISE Group Name>",
+                    "value": "<ISE Group ID>"
                 }
             ],
             "placeholder": "Select ISE Group",
