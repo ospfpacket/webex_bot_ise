@@ -28,8 +28,8 @@
             "type": "Input.ChoiceSet",
             "choices": [
                 {
-                    "title": "<ISE Group Name",
-                    "value": "ISE Group ID"
+                    "title": "<ISE Group Name>",
+                    "value": "<ISE Group ID>"
                 },
                 {
                     "title": "<ISE Group Name",
