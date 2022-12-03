@@ -7,6 +7,7 @@ from bypass import Bypass
 from greeting import Greeting
 from create import Create
 from delete import Delete
+from group import Group
 
 #Import the webex bot access token that was generated when you built your bot
 #over at developer.webex.com
@@ -20,6 +21,7 @@ bot.add_command(Bypass())
 bot.add_command(Greeting())
 bot.add_command(Create())
 bot.add_command(Delete())
+bot.add_command(Group())
 
 #Run the bot
 bot.run()
