@@ -112,7 +112,7 @@ These are the packages you will need to install for the bot to run properly.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-* pip
+* Webex Chat Messages
   ```sh
   create <mac_address>
   
