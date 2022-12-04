@@ -112,7 +112,16 @@ These are the packages you will need to install for the bot to run properly.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Examples will be posted here at a future date.
+* pip
+  ```sh
+  create <mac_address>
+  
+  delete <mac_address>
+  
+  group <mac_address>
+  
+  hello
+  ```
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
